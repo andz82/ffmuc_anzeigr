@@ -1,0 +1,3 @@
+#!/bin/sh
+BASEDIR=$(dirname $0)
+curl -k https://ffmuc.net/data/stats.txt > $BASEDIR/node_stats
